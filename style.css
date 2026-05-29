@@ -47,3 +47,33 @@ margin: 6px 0;
 padding: 10px;
 border-radius: 4px;
 }
+a{
+    text-decoration: none;
+    color: chocolate;
+}
+a:hover {
+    text-decoration: underline;
+}
+#btn-saludar {
+    margin-top: 12px;
+    padding: 10px 24px;
+    background-color: chartreuse;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    border: none;
+}
+
+#btn-saludar:hover {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: chocolate;
+    font-size: 0.8em;
+    color: aquamarine;
+}
